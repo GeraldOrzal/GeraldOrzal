@@ -15,8 +15,8 @@ Here are some ideas to get you started:
   I am Gerald Orzal you can call me Gerald or Yat if were close personally. I am graduated at Polytechnic University of the Philippines Biñan Campus with a BACHELOR'S
   DEGREE IN INFORMATION TECHNOLOGY and i really likes to enhance my skills further just by watching youtube vids especially all the vids from fireship.io that channel    really gives me data on what is the latest trend in software development. 
   
-  - Also im into Game Dev that was really my passion that's i pursue my carreer in technology. :mage:
-  
+  - Also im into Game Dev that was really my passion that's why i pursue my carreer in technology. :mage:
+  - My physical appearance weren't that good so please be kind! Thankyou! :zombie: 
 ### Hobbies:
   - Watching movies :ticket:
   - Coding :man_technologist:
