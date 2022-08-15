@@ -12,7 +12,7 @@ Here are some ideas to get you started:
 
 -->
 
-![<Badge Name>](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white<Badge Text>-<Background Color>?style=for-the-badge&logo=<Icon Name>&logoColor=<Logo Color>)
+https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
   
 - 🔭 I’m currently working on E-commerce project...
 - 🌱 I’m currently learning laravel ...
