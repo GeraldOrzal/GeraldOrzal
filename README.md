@@ -17,6 +17,7 @@ Here are some ideas to get you started:
   
   - Also im into Game Dev that was really my passion that's why i pursue my carreer in technology. :mage:
   - My physical appearance weren't that good so please be kind! Thankyou! :zombie: 
+  - I don't talk a lot when im not with my close friends. I don't know why i am like this maybe maturity kicks in. :monkey_face:
 ### Hobbies:
   - Watching movies :ticket:
   - Coding :man_technologist:
