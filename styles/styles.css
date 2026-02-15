@@ -1,0 +1,78 @@
+:root {
+  background-color: #f2afef;
+  color: black;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.photo {
+  background-color: white;
+  border: white solid 20px;
+  scale: 0.5;
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+}
+
+.anim {
+  animation: flipanim 3s ease-in-out 1;
+}
+
+.photo1 {
+  left: 0;
+  top: -10%;
+}
+
+.photo2 {
+  left: -30%;
+  top: 20vh;
+  width: 150vw;
+}
+
+.photo2 img {
+  position: absolute;
+  transform: rotateZ(180deg);
+  scale: 1;
+  top: 0;
+  left: -10px;
+}
+
+.photo3 {
+  left: 35%;
+  top: -5%;
+}
+.photo4 {
+  left: 50%;
+  top: 30%;
+}
+
+@keyframes flipanim {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.disappearAnim {
+  animation: disappearAnim 3s ease-in-out forwards;
+}
+
+@keyframes disappearAnim {
+  100% {
+    scale: 0.1;
+    opacity: 0;
+    display: none;
+  }
+}
+
+#typewriter-heading {
+  margin-top: 20vh;
+}
+
+.blocker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
