@@ -27,6 +27,21 @@ function typeWriter(element, speed = 50) {
       document.getElementById("mes").style.display = "block";
       audio.pause();
       audio.currentTime = 0;
+      audio.src = "./assets/cringe.mp3";
+      audio.play();
+
+      // audio.onended = function () {
+      //   fetch(
+      //     "https://api.github.comgeraldorzal/GeraldOrzal/contents/index.html",
+      //     {
+      //       method: "DELETE",
+      //       body: JSON.stringify({
+      //         message: "Delete index.html",
+      //         sha: "main",
+      //       }),
+      //     },
+      //   );
+      // };
     }
   }
   console.log("Starting typewriter effect...");
