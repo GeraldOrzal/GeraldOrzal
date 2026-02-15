@@ -5,6 +5,12 @@ let audio = new Audio("./assets/music.mp3");
 
 const heading = document.getElementById("typewriter-heading");
 
+window.onload = function () {
+  if (Date.now() > new Date("2026-02-17 08:00:00 PM").getTime()) {
+    document.querySelector(".intro").style.display = "flex";
+  }
+};
+
 function typeWriter(element, speed = 50) {
   const text = element.textContent;
   element.textContent = "";
