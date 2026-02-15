@@ -33,7 +33,7 @@
       />
       <button onclick="handleSubmit()">Submit</button>
     </div>
-    <main style="display: none" class="mainBody">
+    <main class="mainBody" style="display: none">
       <div onclick="flip(this)" class="photo photo1">
         <img src="./assets/1.jpg" height="100%" width="100%" />
         <div class="message" style="display: none">
@@ -114,32 +114,6 @@
         tatlo just to clear my throat*
       </p>
       <div class="blocker" id="blocker" style="display: none"></div>
-      <script>
-        const heading = document.getElementById("typewriter-heading");
-
-        function typeWriter(element, speed = 50) {
-          const text = element.textContent;
-          element.textContent = "";
-          let i = 0;
-
-          function type() {
-            if (i < text.length) {
-              element.textContent += text.charAt(i);
-              i++;
-              setTimeout(type, speed);
-            } else {
-              document.getElementById("typewriter-heading").style.display =
-                "none";
-
-              document.getElementById("mes").style.display = "block";
-            }
-          }
-          console.log("Starting typewriter effect...");
-          type();
-        }
-
-        //setTimeout(() => typeWriter(paragraph, 30), heading.textContent.length * 50);
-      </script>
     </main>
 
     <script src="script.js"></script>
